@@ -1,0 +1,67 @@
+* {
+    margin: auto;
+    font-weight: bold;
+}
+
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+
+#row {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 4rem;
+}
+#foot {
+    background-color: lightblue;
+}
+
+.text-center {
+    padding: 3rem;
+}
+
+#foot-main {
+    background-color: lightblue;
+}
+
+.col-first {
+    padding: 3rem;
+    text-align: center;
+}
+.img_animate{
+    animation: move 15s infinite;
+    position: relative;
+    animation-direction:alternate;
+}
+@keyframes move{
+    from {left:-400px;}
+  to {left: 0px;}  
+}
+
+h4:hover {
+    color: lightblue;
+}
+
+.navbar-brand:hover {
+    color: lightblue;
+}
+
+h1:hover {
+    color: lightblue;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(19, 171, 226, 0.17) 0px 12px 13px, rgba(16, 154, 196, 0.09) 0px -3px 5px;
+}
+@media screen and (max-width: 1000px) {
+    #logo_bike{
+        display: none;
+    }
+}
+.error{
+    color:brown;
+}
+.card{
+    background-image: linear-gradient(to bottom ,  lightseagreen,lightblue);
+}
